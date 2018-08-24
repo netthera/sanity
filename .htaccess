@@ -1,0 +1,7 @@
+AuthUserFile "/home/path/to/your/sanity/htusers"
+AuthType Basic
+AuthName "Please login to Sanity"
+require valid-user
+<Files htusers>
+deny from all
+</Files>
