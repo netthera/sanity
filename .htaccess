@@ -1,4 +1,4 @@
-AuthUserFile "/home/path/to/your/sanity/htusers"
+AuthUserFile "/home/path/to/your/sanity/snt_config/htusers"
 AuthType Basic
 AuthName "Please login to Sanity"
 require valid-user
