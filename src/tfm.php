@@ -47,9 +47,9 @@ $datetime_format = 'd.m.y H:i';
 $upload_extensions = ''; // 'gif,png,jpg'
 // show or hide the left side tree view
 $show_tree_view = false;
-//Array of folders excluded from listing
-$GLOBALS['exclude_folders'] = array(
-);
+
+//nicholas
+include 'snt_config/config.php'; 
 // include user config php file
 if (defined('FM_CONFIG') && is_file(FM_CONFIG) ) {
 	include(FM_CONFIG);
